@@ -44,7 +44,6 @@
     font-size: 15px;
 }
 #authors{
-    margin:0px 0px 15px 0px;
     padding: 0px 0px 5px 0px;
 }
 #footer{
@@ -86,7 +85,7 @@ h2{
 }
 #abstract p{
     font-weight: bold;
-    padding:20px 0px 20px 0px;
+    padding:10px 0px 20px 0px;
 }
 #article{
     width:620px;
@@ -101,5 +100,6 @@ ul{
     color:#666;
     padding:0px;
     border-bottom: 2px solid #ccc;
+    margin:0px;
 }
 
