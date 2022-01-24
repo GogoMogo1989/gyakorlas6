@@ -44,16 +44,14 @@
     font-size: 15px;
 }
 #authors{
-    border-bottom: 1px;
-    border-color: grey;
     margin:0px 0px 15px 0px;
     padding: 0px 0px 5px 0px;
 }
 #footer{
-    border-top:2px;
-    border-color:orange;
-    margin:15px 0px 15px 0px;
-    padding:15px 0px 15px 0px;
+    padding:5px 0px 5px 0px;
+    border-top: 2px solid orangered;
+    margin:0px 0px 15px 0px;
+    background-color:white;
 }
 #intro{
     padding:20px;
@@ -64,27 +62,44 @@ img{
     padding:1px;
 }
 p{
-    margin:16px;
+    margin:16px 0px 0px 0px;
 }
 figcaption{
     margin:0px;
     padding:8px 0px 8px 0px;
     color:#666;
     font-weight:13px;
+    text-align: center;
 }
-#intro p{
-    color:#666;
+.szerzok{
+    color:blue;
 }
 h1{
     font-size:26px;
+    padding:0px 0px 10px 0px;
+
+    
 }
 h2{
     font-size:18px;
+   
 }
 #abstract p{
     font-weight: bold;
+    padding:20px 0px 20px 0px;
 }
 #article{
-    width:640px;
+    width:620px;
+}
+ul{
+    padding:15px 15px 15px 20px;
+}
+#article p{
+    padding:10px 0px 10px 0px;
+}
+#authors p{
+    color:#666;
+    padding:0px;
+    border-bottom: 2px solid #ccc;
 }
 
